@@ -11,39 +11,51 @@ body {
 	width: 960px;
 	align-content: center;
 	margin: 0 auto 0 auto;
+	overflow: auto;
+	height: 100%; /*added */
 }
 
 header {
 	margin-top: 10px;
 	background: #ebebeb;
 	padding: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;	
+}
 
+#topPage {
+	float: left;
 }
 
 nav {
 	background: #ebebeb;
 	padding: 30px;
 	margin-bottom: 20px;
-	width: 100%;
+	width: 100%;	
+	height: 15%; /*added */
+	float: right;
 }
 
-.section {
+.center {
+	margin-bottom: 40px;
+	height: 380px;
+}
+
+#section {
 	background: #ebebeb;
 	width: 495px;
 	height: 300px;
 	float: left;
-	padding: 15px;
+	padding: 15px;	
+	
 }
 
 aside {
 	background: #ebebeb;
 	width: 450px;
 	float: right;
-	padding: 20px;
-	height: 300px;
+	padding: 15px;
+	height: 300px; 
 	margin-left: 10px;
-	overflow: auto;
 }
 
 
@@ -59,22 +71,34 @@ aside {
 h1 {
 	background: #ebebeb;
 	padding: 10px;
-	height: 50px;
+	height: 25%;
 	width: 100%;
 }
 		
 p {
 	overflow: auto;
 	background: #ebebeb;
-	height: 50px;
+	height: 25%;
 	padding: 10px;
 }
 
-#footer {
+footer {
+	/* my old footer where it sits in regards to height
 	background: #ebebeb;
 	clear: both;
 	height: 100px;
 	padding: 40px;
+	align-content: 
 	margin-top: 350px;
-	
+	below is the new footer  that sits on bottom of page */
+	clear: both;
+	margin-top: 40px;
+	height: 15%; /*added */
+	width: 960px;
+	/*position: fixed;
+	bottom: 0;	
+	/*margin-top: 10px;*/			
+	background: #ebebeb;
+	text-align: center;
+	padding: 40px; 	
 }
